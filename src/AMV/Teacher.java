@@ -1,7 +1,5 @@
 package AMV;
 
-public class Teacher {
-
     public class Teacher extends Person {
         private String Subject;
         private String Title;
@@ -20,4 +18,3 @@ public class Teacher {
             return this.Title + "." + " " + this.getFamilyName();
         }
     }
-}
